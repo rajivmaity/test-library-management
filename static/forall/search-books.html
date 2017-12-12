@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <title>Search by authors</title>
+      
+        <script src="ajax-js.js"></script>
+        <script src="jquery-3.2.1.js"></script>
+        
+    </head>
+    <body>
+        <h1>Search Books</h1>
+        <h3>for test type "samplebook"</h3>
+        <p>
+            <input type="text" name="book_name" id="book_name" placeholder="search...">
+            <br>
+            <input type="button" onclick="searchBooks()" value="Search">
+            <div>
+                <p>
+                    ID: <span id="book_id_result"></span>
+                </p>
+                <p>
+                    Name: <span id="book_name_result"></span>
+                </p>
+                <p>
+                    AuthorName: <span id="book_author_name_result"></span>
+                </p>
+                <p>
+                    PublishDate: <span id="publish_date_result"></span>
+                </p>
+        
+            </div>
+            <p>
+                <a href="index.html">Go back</a>
+            </p>
+        </p>
+    </body>
+</html>
